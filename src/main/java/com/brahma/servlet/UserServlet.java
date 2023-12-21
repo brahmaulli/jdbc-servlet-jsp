@@ -120,7 +120,7 @@ public class UserServlet extends GenericServlet{
      	String message	= userservice.userUpdate(userid,username);
      	
      	System.out.println(userid);
-     	System.out.println();
+     	System.out.println(message);
 	
 	//RequestDispatcher rd= httprequest.getRequestDispatcher("selectAllUsers");
 	try {

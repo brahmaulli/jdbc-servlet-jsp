@@ -44,7 +44,7 @@ public class UserService {
 		ps.setString(4, user.getCountry());
 		
 		ps.executeUpdate();
-		
+		con.close();
 		
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
